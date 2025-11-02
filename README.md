@@ -16,7 +16,7 @@ This repo is intentionally minimal yet professional: clean layout, clear extensi
 ## Build
 
 **Dependencies**
-- C++20 compiler
+- C++17 compiler
 - [Eigen 3.4+](https://eigen.tuxfamily.org)
 - [oneTBB](https://github.com/oneapi-src/oneTBB)
 - [Boost](https://www.boost.org/) (headers; uses Units and Math)
