@@ -1,4 +1,4 @@
-# DFT — Finite-Difference Kohn–Sham DFT (C++)
+# DFT - Finite-Difference Kohn–Sham DFT (C++)
 
 A compact but serious Kohn–Sham DFT prototype built the *engineering* way:
 
