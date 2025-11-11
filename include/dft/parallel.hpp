@@ -12,4 +12,4 @@ void for_index(size_t N, F f){
     });
 }
 
-}} // namespace dft::par
+}} 
