@@ -15,4 +15,4 @@ inline void write_scalar(const std::string& file,
   for(size_t i=0;i<data.size();++i) ofs << data[i] << "\n";
 }
 
-}} // namespace dft::io
+}}
