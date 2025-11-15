@@ -20,4 +20,5 @@ inline Eigenpairs solve_lowest_dense(const Eigen::SparseMatrix<double>& H, int k
   return out;
 }
 
-} // namespace dft
+}
+
