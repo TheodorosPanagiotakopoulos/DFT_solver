@@ -31,4 +31,4 @@ struct Grid3D {
   }
 };
 
-} // namespace dft
+}
