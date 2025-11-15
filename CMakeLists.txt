@@ -42,4 +42,3 @@ if(NOT MSVC)
 else()
   target_compile_options(dft-fd PRIVATE /W4)
 endif()
-.
