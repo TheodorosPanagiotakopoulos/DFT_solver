@@ -2,7 +2,7 @@
 #include "dft/grid.hpp"
 #include "dft/potential.hpp"
 #include "dft/scf.hpp"
-#include "dft/io.hpp
+#include "dft/io.hpp"
 
 using namespace dft;
 
