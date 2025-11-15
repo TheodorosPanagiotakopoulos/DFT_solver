@@ -12,4 +12,4 @@ struct au {
 inline double ang_to_bohr(double ang) { return ang / au::bohr_to_ang; }
 inline double bohr_to_ang(double bohr){ return bohr * au::bohr_to_ang; }
 
-}} // namespace dft::units
+}}
