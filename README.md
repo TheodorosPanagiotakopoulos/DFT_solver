@@ -9,7 +9,7 @@ A compact but serious Kohn–Sham DFT prototype built the *engineering* way:
 - **Performance & portability:** **Kokkos** (optional) for portable density builds, **TBB** for high-level parallel loops, C++17 threads/`std::async` for background I/O.
 - **Correctness ergonomics:** **Boost.Units** at API boundaries; **Boost.Math** for stable special functions (e.g. `cbrt`).
 
-This repo is intentionally minimal yet professional: clean layout, clear extension points (Poisson/Hartree, better XC, Pulay/Broyden mixing, pseudopotentials, higher-order stencils), and CI-friendly CMake
+This repo is intentionally minimal yet professional: clean layout, clear extension points (Poisson/Hartree, better XC, Pulay/Broyden mixing, pseudopotentials, higher-order stencils), and CI-friendly CMake.
 
 ---
 
