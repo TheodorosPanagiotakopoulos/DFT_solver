@@ -39,4 +39,4 @@ struct HamiltonianFD {
   }
 };
 
-} // namespace dft
+}
