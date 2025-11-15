@@ -124,4 +124,4 @@ std::vector<double> build_local_potential(
   return V;
 }
 
-}} 
+}}
