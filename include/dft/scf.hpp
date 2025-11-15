@@ -75,4 +75,4 @@ SCFResult run_scf(const Grid3D& g, const ExtV& vext, const SCFOptions& opt){
   return out;
 }
 
-} // namespace dft
+}
