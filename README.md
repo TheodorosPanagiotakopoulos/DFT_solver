@@ -2,14 +2,14 @@
 
 A compact but serious Kohn–Sham DFT prototype built the *engineering* way:
 
-- **Discretization:** uniform finite differences on a 3D grid (2nd-order Laplacian, periodic BCs)
-- **Linear algebra:** **Eigen** sparse matrices
-- **Eigen-solver:** **ARPACK++** iterative solver (`DFT_USE_ARPACKPP`), with a small **Eigen** dense fallback for tiny demos
-- **SCF:** density mixing (linear), LDA-exchange (Dirac) as the XC demo
-- **Performance & portability:** **Kokkos** (optional) for portable density builds, **TBB** for high-level parallel loops, C++17 threads/`std::async` for background I/O
-- **Correctness ergonomics:** **Boost.Units** at API boundaries; **Boost.Math** for stable special functions (e.g. `cbrt`)
+- **Discretization:** uniform finite differences on a 3D grid (2nd-order Laplacian, periodic BCs).
+- **Linear algebra:** **Eigen** sparse matrices.
+- **Eigen-solver:** **ARPACK++** iterative solver (`DFT_USE_ARPACKPP`), with a small **Eigen** dense fallback for tiny demos.
+- **SCF:** density mixing (linear), LDA-exchange (Dirac) as the XC demo.
+- **Performance & portability:** **Kokkos** (optional) for portable density builds, **TBB** for high-level parallel loops, C++17 threads/`std::async` for background I/O.
+- **Correctness ergonomics:** **Boost.Units** at API boundaries; **Boost.Math** for stable special functions (e.g. `cbrt`).
 
-This repo is intentionally minimal yet professional: clean layout, clear extension points (Poisson/Hartree, better XC, Pulay/Broyden mixing, pseudopotentials, higher-order stencils), and CI-friendly CMake
+This repo is intentionally minimal yet professional: clean layout, clear extension points (Poisson/Hartree, better XC, Pulay/Broyden mixing, pseudopotentials, higher-order stencils), and CI-friendly CMake.
 
 ---
 
