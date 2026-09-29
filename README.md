@@ -14,7 +14,7 @@ This repo is intentionally minimal yet professional: clean layout, clear extensi
 ---
 
 ## Build
-....
+.....
 **Dependencies**
 - C++17 compiler
 - [Eigen 3.4+](https://eigen.tuxfamily.org)
